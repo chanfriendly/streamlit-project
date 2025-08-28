@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialize OpenAI client
-client = openai.OpenAI()
+client = OPENAI_API_KEY
 
 
 # Helper function to get dataset path
